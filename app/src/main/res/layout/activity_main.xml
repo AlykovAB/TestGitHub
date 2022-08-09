@@ -9,9 +9,20 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="TextView1 AAlykov"
-        android:textSize="36sp" />
+        android:textSize="36sp"
+        android:layout_gravity="center"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Branch1 Text1 AAlykov"
+        android:textSize="36sp"
+        android:layout_gravity="center"/>
+
+
+
 </androidx.appcompat.widget.LinearLayoutCompat>
